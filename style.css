@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@200;800&display=swap');
+
+body {
+  font-size: medium;
+  font-family: 'Lora', serif;
+  font-size: 20;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40;
+  font-weight: 800;
+  line-height: 40px;
+  color: white;
+  padding-top: 175px;
+  padding-left: 350px;
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25;
+  font-weight: 200;
+  line-height: 75px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+a {
+  font-family: 'Lora', serif;
+  color: 5C8374;
+  font-size: 25;
+  line-height: 75px;
+  background-color: 9EC8B9;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: F2FFE9;
+}
+
+.banner {
+  background-image:  url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+}
+
+.container{
+  width: 800;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.text-white {
+  color: white;
+  font-size: 30;
+  padding-bottom: 175px;
+  padding-left: 350px;
+}
+@media(max-width: 900px) {
+  .container {
+    width: 650px;
+  }
+}
+
+@media(max-width: 700px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media(max-width: 450px) {
+  .container {
+    width: 300px;
+  }
+}
